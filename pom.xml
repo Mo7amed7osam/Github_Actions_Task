@@ -16,7 +16,6 @@
     </properties>
 
     <dependencies>
-        <!-- ✅ مكتبة JUnit 5 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -27,7 +26,6 @@
 
     <build>
         <plugins>
-            <!-- ✅ Plugin لتشغيل الاختبارات -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
